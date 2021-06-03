@@ -2,7 +2,7 @@ package Exercicio04;
 
 import java.util.List;
 
-public class Util<T> {
+public class Util {
 
 	public static boolean addListaStrUnico(String objeto, List<String> valor) {
 		
