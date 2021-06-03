@@ -14,8 +14,6 @@ public class Util {
 		return true;
 	}
 	
-	
-	
 	public static Objeto<Integer> buscaChave(String o, List<Objeto<Integer>> i) {
 		
 		int x = i.size();

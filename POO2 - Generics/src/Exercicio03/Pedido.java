@@ -8,6 +8,10 @@ public class Pedido<T extends Produto> {
 	private String status;
 	
 	public Pedido() {
+	}	
+	
+	public boolean addLista(T o) {
+		return produto.add(o);
 	}
 	
 	public Pedido(List<T> produto, String status) {
